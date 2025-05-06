@@ -43,7 +43,6 @@ class PersistenceController {
         }
     }
     
-    // MARK: - Helper Methods for Default Data
     
     func createInitialData() {
         let context = container.viewContext

@@ -30,9 +30,4 @@ struct MovieTrackerApp: App {
         persistenceController.createInitialData()
     }
     
-    private func registerTransformers() {
-        // Register value transformers for arrays and dictionaries
-//        ArrayTransformer.register()
-//        DictionaryTransformer.register()
-    }
 }

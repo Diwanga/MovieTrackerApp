@@ -9,10 +9,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("isDarkMode") private var isDarkMode = false
-    @StateObject private var myCinemaViewModel = MyCinemaViewModel()
-    @StateObject private var discoverViewModel = DiscoverViewModel()
-    @StateObject private var insightsViewModel = InsightsViewModel()
+    @AppStorage("isDarkMode") public var isDarkMode = false
+    @StateObject public var myCinemaViewModel = MyCinemaViewModel()
+    @StateObject public var discoverViewModel = DiscoverViewModel()
+    @StateObject public var insightsViewModel = InsightsViewModel()
     
     var body: some View {
         TabView {
@@ -32,9 +32,6 @@ struct ContentView: View {
                 }
         }
         .preferredColorScheme(isDarkMode ? .dark : .light)
-//        .onAppear {
-//            // Initialize Core Data with default playlists if needed
-//       //     PersistenceController.shared.createInitialData()
-//        }
+
     }
 }
