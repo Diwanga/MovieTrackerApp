@@ -50,7 +50,7 @@ A comprehensive movie tracking application for iOS and iPadOS, built with SwiftU
 
 1. Clone the repository in Final version Branch
 ```bash
-git clone https://github.com/yourusername/movie-tracker.git
+git clone https://github.com/Diwanga/movie-tracker.git
 cd movie-tracker
 ```
 
