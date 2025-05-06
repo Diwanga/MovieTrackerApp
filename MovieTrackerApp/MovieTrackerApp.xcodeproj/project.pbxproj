@@ -6,20 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		F9C254552DC767AA000DB344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C252DA2DC64F44000DB344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C252E12DC64F44000DB344;
+			remoteInfo = MovieTrackerApp;
+		};
+		F9C254D92DCA46E6000DB344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C252DA2DC64F44000DB344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C252E12DC64F44000DB344;
+			remoteInfo = MovieTrackerApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A8D57DEB2DC7819A0017534E /* MovieTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C252E22DC64F44000DB344 /* MovieTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C254512DC767AA000DB344 /* MovieTrackerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTrackerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C254D32DCA46E6000DB344 /* MovieTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A8D57DED2DC7819A0017534E /* MovieTrackerApp */ = {
+		F9C252E42DC64F44000DB344 /* MovieTrackerApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MovieTrackerApp;
+			sourceTree = "<group>";
+		};
+		F9C254522DC767AA000DB344 /* MovieTrackerAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieTrackerAppTests;
+			sourceTree = "<group>";
+		};
+		F9C254D42DCA46E6000DB344 /* MovieTrackerAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieTrackerAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A8D57DE82DC7819A0017534E /* Frameworks */ = {
+		F9C252DF2DC64F44000DB344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C2544E2DC767AA000DB344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C254D02DCA46E6000DB344 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A8D57DE22DC7819A0017534E = {
+		F9C252D92DC64F44000DB344 = {
 			isa = PBXGroup;
 			children = (
-				A8D57DED2DC7819A0017534E /* MovieTrackerApp */,
-				A8D57DEC2DC7819A0017534E /* Products */,
+				F9C252E42DC64F44000DB344 /* MovieTrackerApp */,
+				F9C254522DC767AA000DB344 /* MovieTrackerAppTests */,
+				F9C254D42DCA46E6000DB344 /* MovieTrackerAppUITests */,
+				F9C252E32DC64F44000DB344 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A8D57DEC2DC7819A0017534E /* Products */ = {
+		F9C252E32DC64F44000DB344 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8D57DEB2DC7819A0017534E /* MovieTrackerApp.app */,
+				F9C252E22DC64F44000DB344 /* MovieTrackerApp.app */,
+				F9C254512DC767AA000DB344 /* MovieTrackerAppTests.xctest */,
+				F9C254D32DCA46E6000DB344 /* MovieTrackerAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8D57DEA2DC7819A0017534E /* MovieTrackerApp */ = {
+		F9C252E12DC64F44000DB344 /* MovieTrackerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8D57DFC2DC7819B0017534E /* Build configuration list for PBXNativeTarget "MovieTrackerApp" */;
+			buildConfigurationList = F9C252F52DC64F47000DB344 /* Build configuration list for PBXNativeTarget "MovieTrackerApp" */;
 			buildPhases = (
-				A8D57DE72DC7819A0017534E /* Sources */,
-				A8D57DE82DC7819A0017534E /* Frameworks */,
-				A8D57DE92DC7819A0017534E /* Resources */,
+				F9C252DE2DC64F44000DB344 /* Sources */,
+				F9C252DF2DC64F44000DB344 /* Frameworks */,
+				F9C252E02DC64F44000DB344 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A8D57DED2DC7819A0017534E /* MovieTrackerApp */,
+				F9C252E42DC64F44000DB344 /* MovieTrackerApp */,
 			);
 			name = MovieTrackerApp;
 			packageProductDependencies = (
 			);
 			productName = MovieTrackerApp;
-			productReference = A8D57DEB2DC7819A0017534E /* MovieTrackerApp.app */;
+			productReference = F9C252E22DC64F44000DB344 /* MovieTrackerApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F9C254502DC767AA000DB344 /* MovieTrackerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C254572DC767AA000DB344 /* Build configuration list for PBXNativeTarget "MovieTrackerAppTests" */;
+			buildPhases = (
+				F9C2544D2DC767AA000DB344 /* Sources */,
+				F9C2544E2DC767AA000DB344 /* Frameworks */,
+				F9C2544F2DC767AA000DB344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C254562DC767AA000DB344 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F9C254522DC767AA000DB344 /* MovieTrackerAppTests */,
+			);
+			name = MovieTrackerAppTests;
+			packageProductDependencies = (
+			);
+			productName = MovieTrackerAppTests;
+			productReference = F9C254512DC767AA000DB344 /* MovieTrackerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9C254D22DCA46E6000DB344 /* MovieTrackerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C254DB2DCA46E6000DB344 /* Build configuration list for PBXNativeTarget "MovieTrackerAppUITests" */;
+			buildPhases = (
+				F9C254CF2DCA46E6000DB344 /* Sources */,
+				F9C254D02DCA46E6000DB344 /* Frameworks */,
+				F9C254D12DCA46E6000DB344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C254DA2DCA46E6000DB344 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F9C254D42DCA46E6000DB344 /* MovieTrackerAppUITests */,
+			);
+			name = MovieTrackerAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MovieTrackerAppUITests;
+			productReference = F9C254D32DCA46E6000DB344 /* MovieTrackerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A8D57DE32DC7819A0017534E /* Project object */ = {
+		F9C252DA2DC64F44000DB344 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					A8D57DEA2DC7819A0017534E = {
-						CreatedOnToolsVersion = 16.3;
+					F9C252E12DC64F44000DB344 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F9C254502DC767AA000DB344 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F9C252E12DC64F44000DB344;
+					};
+					F9C254D22DCA46E6000DB344 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F9C252E12DC64F44000DB344;
 					};
 				};
 			};
-			buildConfigurationList = A8D57DE62DC7819A0017534E /* Build configuration list for PBXProject "MovieTrackerApp" */;
+			buildConfigurationList = F9C252DD2DC64F44000DB344 /* Build configuration list for PBXProject "MovieTrackerApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A8D57DE22DC7819A0017534E;
+			mainGroup = F9C252D92DC64F44000DB344;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A8D57DEC2DC7819A0017534E /* Products */;
+			productRefGroup = F9C252E32DC64F44000DB344 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8D57DEA2DC7819A0017534E /* MovieTrackerApp */,
+				F9C252E12DC64F44000DB344 /* MovieTrackerApp */,
+				F9C254502DC767AA000DB344 /* MovieTrackerAppTests */,
+				F9C254D22DCA46E6000DB344 /* MovieTrackerAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A8D57DE92DC7819A0017534E /* Resources */ = {
+		F9C252E02DC64F44000DB344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C2544F2DC767AA000DB344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C254D12DCA46E6000DB344 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A8D57DE72DC7819A0017534E /* Sources */ = {
+		F9C252DE2DC64F44000DB344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C2544D2DC767AA000DB344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C254CF2DCA46E6000DB344 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -124,8 +255,21 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F9C254562DC767AA000DB344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C252E12DC64F44000DB344 /* MovieTrackerApp */;
+			targetProxy = F9C254552DC767AA000DB344 /* PBXContainerItemProxy */;
+		};
+		F9C254DA2DCA46E6000DB344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C252E12DC64F44000DB344 /* MovieTrackerApp */;
+			targetProxy = F9C254D92DCA46E6000DB344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		A8D57DFA2DC7819B0017534E /* Debug */ = {
+		F9C252F32DC64F47000DB344 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,16 +321,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A8D57DFB2DC7819B0017534E /* Release */ = {
+		F9C252F42DC64F47000DB344 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,109 +378,188 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A8D57DFD2DC7819B0017534E /* Debug */ = {
+		F9C252F62DC64F47000DB344 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MovieTrackerApp/MovieTrackerApp.entitlements;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieTrackerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZZHK63T9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_CFBundleDisplayName = "Movie Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iit.teamA.CourseWorkTwo.MovieTrackerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A8D57DFE2DC7819B0017534E /* Release */ = {
+		F9C252F72DC64F47000DB344 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MovieTrackerApp/MovieTrackerApp.entitlements;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieTrackerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZZHK63T9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_CFBundleDisplayName = "Movie Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iit.teamA.CourseWorkTwo.MovieTrackerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9C254582DC767AA000DB344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZZHK63T9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iit.teamA.CourseWorkTwo.MovieTrackerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTrackerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieTrackerApp";
+			};
+			name = Debug;
+		};
+		F9C254592DC767AA000DB344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZZHK63T9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iit.teamA.CourseWorkTwo.MovieTrackerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieTrackerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieTrackerApp";
+			};
+			name = Release;
+		};
+		F9C254DC2DCA46E6000DB344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZZHK63T9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iit.teamA.CourseWorkTwo.MovieTrackerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieTrackerApp;
+			};
+			name = Debug;
+		};
+		F9C254DD2DCA46E6000DB344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZZHK63T9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iit.teamA.CourseWorkTwo.MovieTrackerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieTrackerApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8D57DE62DC7819A0017534E /* Build configuration list for PBXProject "MovieTrackerApp" */ = {
+		F9C252DD2DC64F44000DB344 /* Build configuration list for PBXProject "MovieTrackerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8D57DFA2DC7819B0017534E /* Debug */,
-				A8D57DFB2DC7819B0017534E /* Release */,
+				F9C252F32DC64F47000DB344 /* Debug */,
+				F9C252F42DC64F47000DB344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8D57DFC2DC7819B0017534E /* Build configuration list for PBXNativeTarget "MovieTrackerApp" */ = {
+		F9C252F52DC64F47000DB344 /* Build configuration list for PBXNativeTarget "MovieTrackerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8D57DFD2DC7819B0017534E /* Debug */,
-				A8D57DFE2DC7819B0017534E /* Release */,
+				F9C252F62DC64F47000DB344 /* Debug */,
+				F9C252F72DC64F47000DB344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C254572DC767AA000DB344 /* Build configuration list for PBXNativeTarget "MovieTrackerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C254582DC767AA000DB344 /* Debug */,
+				F9C254592DC767AA000DB344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C254DB2DCA46E6000DB344 /* Build configuration list for PBXNativeTarget "MovieTrackerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C254DC2DCA46E6000DB344 /* Debug */,
+				F9C254DD2DCA46E6000DB344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A8D57DE32DC7819A0017534E /* Project object */;
+	rootObject = F9C252DA2DC64F44000DB344 /* Project object */;
 }
