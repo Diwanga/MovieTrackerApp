@@ -48,7 +48,7 @@ A comprehensive movie tracking application for iOS and iPadOS, built with SwiftU
 
 ### Installation Steps
 
-1. Clone the repository
+1. Clone the repository in Final version Branch
 ```bash
 git clone https://github.com/yourusername/movie-tracker.git
 cd movie-tracker
